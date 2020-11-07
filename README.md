@@ -4,15 +4,15 @@
 
 ![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg)
 
-Made with ❤️ by team **Storm Troopers**.
+• Made with ❤️ by team **Storm Troopers**.
 
-Please do ⭐ the repository, if it helped you in gaining insightful knowledge.
+• Please do ⭐ the repository, if it helped you in gaining insightful knowledge.
 
-If you forked this repository, you can link it to your heroku app afterwards 🔗.
+• If you forked this repository, you can link it to your heroku app afterwards 🔗.
 
 • A glimpse of the web app:
 
-![VIDEO](readme_resources/Is Suicide worth it_ - Google Chrome 2020.mp4)
+![GIF](readme_resources/SLAC-2020.gif)
 
 
 **Run Deployed Model 👇**
