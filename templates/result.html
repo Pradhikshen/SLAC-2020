@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Is Suicide worth it?</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='suicide.jpg') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <!-- Website Title -->
+    	<div class="container">
+    		<h2 class='container-heading'><span>Suicidal Intention</span> Detector</h2>
+            <div class='description'>
+    			<p>A Machine Learning Web Application, Built with Flask, Deployed using Heroku.</p>
+    		</div>
+    	</div>
+
+		<!-- Result -->
+		<div class="results">
+			{% if prediction==1 %}
+				<h1><span class='danger'>Suicidal. The person who completes suicide, dies once. Those left behind die a thousand deaths, trying to relive those terrible moments and understand… WHY?</span><h1>
+			{% elif prediction==0 %}
+				<h1><span class='safe'>Non-Suicidal. Never, never, never give up.</span><h1>
+			{% endif %}
+		</div>
+
+		<!-- Footer -->
+       <div class='footer'>
+           <div class="contact">
+               <a target="_blank" href="https://github.com/nakshatrasinghh"><i class="fab fa-github fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.linkedin.com/in/nakshatrasinghh/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://wa.link/8bt67v"><i class="fab fa-whatsapp fa-lg contact-icon"></i></a>
+           </div>
+           <p class='footer-description'>Made with ❤️ by Storm Troopers.</p>
+       </div>
+
+    </body>
+</html>
